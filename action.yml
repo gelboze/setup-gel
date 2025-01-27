@@ -1,0 +1,12 @@
+name: "Setup EdgeDB GitHub Action"
+description: "An example GitHub Action"
+inputs:
+  exampleInput:
+    description: "An input value for the action"
+    required: true
+outputs:
+  exampleOutput:
+    description: "An example output value"
+runs:
+  using: "node16"
+  main: "dist/index.cjs"
